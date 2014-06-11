@@ -1,0 +1,29 @@
+#include<stdio.h>
+ 
+int main(){
+        int n,i=1, maxtill=0, count=0,cur;
+       // printf("Enter n");
+        scanf("%d",&n);
+ 
+        while(n--){
+         //         printf("enter a number");
+                    scanf("%d", &cur);
+ 
+                    if(cur!=0){
+                       count++;
+                    }else{
+ 
+                        if(maxtill<count)
+                            maxtill=count;
+ 
+                        count=0;
+                    }
+ 
+           //     printf("%d %d",maxtill,cur);
+        }
+        if(maxtill<count)
+                        maxtill=count;
+        printf("%d",maxtill);
+        return 0;
+}
+ 
