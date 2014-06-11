@@ -1,4 +1,4 @@
 CodeChef
 ========
 
-All my work in code chef
+All my work in codeChef.
